@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #b97a26;
 }
@@ -6,6 +10,12 @@ body{
     text-align: center;
     background-color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
 }
 
 .description{
@@ -17,3 +27,4 @@ body{
     font-size: 20px;
     background-color: red;
 }
+
