@@ -5,21 +5,6 @@
 body{
     /* background-color: #a5fcff; */
     background-image: linear-gradient(to right, #00cdac 0% , #8ddad5 100%);
-    border: 5px solid black;
-    margin: 0px;
-    padding: 10px;
-}
-.header{
-    color: #3d634d;
-    text-align: center;
-    background-color: rgb(190, 240, 186);
-    font-family:Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    width: 400px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid black;
 }
 
 .description{
@@ -62,3 +47,53 @@ span{
     margin: 15px auto;
     font-style: italic;
 }
+
+.top-belt-container{
+    background-color: hsl(170, 95%, 34%);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.top-belt{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-belt-account{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-belt-login{
+    margin-right: 20px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    color: #3d634d;
+    text-align: center;
+    background-color: rgb(190, 240, 186);
+    font-family:Geneva, Tahoma, sans-serif;
+    width: 500px;
+    height: 80px;
+    border: 2px solid black;
+}
+
+/* .social{
+    margin-left: 50px;
+} */
