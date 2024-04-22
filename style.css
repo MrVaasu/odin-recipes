@@ -3,22 +3,23 @@
 }
 
 body{
-    background-color: #b97a26;
+    /* background-color: #a5fcff; */
+    background-image: linear-gradient(to right, #00cdac 0% , #8ddad5 100%);
     border: 5px solid black;
     margin: 0px;
     padding: 10px;
 }
 .header{
-    color: #b97a26;
+    color: #3d634d;
     text-align: center;
-    background-color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(190, 240, 186);
+    font-family:Geneva, Tahoma, sans-serif;
     padding: 10px;
     width: 400px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid black;
+    border: 2px solid black;
 }
 
 .description{
@@ -29,15 +30,20 @@ body{
     margin-right: 100px;
     height: auto;
     overflow: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    border: 2px solid black;
 }
 
 .goback{
     font-size: 20px;
-    background-color: red;
+    background-color: rgb(190, 240, 186);
 }
 
 span{
-    background-color: hsl(34, 45%, 42%);
+    background-color: rgb(190, 240, 186);
     border: 1px solid black;
 }
 
@@ -45,4 +51,14 @@ span{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.menu-ui{
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-li{
+    margin: 15px auto;
+    font-style: italic;
 }
