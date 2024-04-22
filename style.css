@@ -73,6 +73,8 @@ span{
 }
 
 .header-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -93,6 +95,31 @@ span{
     height: 80px;
     border: 2px solid black;
 }
+
+.to-change-later{
+    display: flex;
+}
+
+.main-recipes-images-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-recipes-images{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f3dea0;
+    width: 800px;
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-food-image{
+    margin: 20px;
+}
+
 
 /* .social{
     margin-left: 50px;
